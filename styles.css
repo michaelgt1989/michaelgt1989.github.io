@@ -129,21 +129,57 @@ body {
   border-radius: 50%;
 }
 
-.my-contact { 
-  font-family: Ink Free;
-  color: #0b0c10;
-  position: relative;
-  left: 2.5%;
-  overflow-x: hidden;
+.resume{
+font-family: Ink Free;
+color: #0b0c10;
+position: relative;
+left: 2.5%;
+overflow-x: hidden;
 }
+
+.resume-info{
+background-color: #45a29e;
+width: 50%;
+border: 10px solid #1f2833;
+position: relative;
+left: 2.5%;
+overflow-x: hidden;
+}
+
+.column{
+  float: left;
+  width: 20%;
+  padding: 2%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card:hover{
+box-shadow: 0 4px 8px 0 #1f2833(1, 1, 1, 1);
+padding: 2%;
+text-align: center;
+background-color: #66fcf1;
+}
+
+.my-contact { 
+font-family: Ink Free;
+color: #0b0c10;
+position: relative;
+left: 2.5%;
+overflow-x: hidden;
+  }
 
 .contact-info {
   font-family: Verdana;
   color: #0b0c10;
   background-color:	#45a29e;
-  width: 30%;
+  width: 20%;
+  padding: 2%;
   border: 10px solid #1f2833;
-  padding: 5px;
   position: relative;
   left: 2.5%;
   overflow-x: hidden;
