@@ -34,7 +34,7 @@ body {
 }
   
 .hero-image {
-  background-image: url("backgroundImage.jpg");
+  background-image: url("backgroundimage.jpg");
   background-color: #eeee;
   height: 530px;
   background-position: center;
